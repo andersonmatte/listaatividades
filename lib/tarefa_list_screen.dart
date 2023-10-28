@@ -20,14 +20,14 @@ class TarefaListScreen extends StatelessWidget {
                 return Column(
                   children: [
                     ListTile(
-                      title: Text('Título', style: TextStyle(color: Colors.pink)),
+                      title: const Text('Título', style: TextStyle(color: Colors.pink)),
                       subtitle: Text(tarefa.titulo),
                     ),
                     ListTile(
-                      title: Text('Descrição', style: TextStyle(color: Colors.pink)),
+                      title: const Text('Descrição', style: TextStyle(color: Colors.pink)),
                       subtitle: Text(tarefa.descricao),
                     ),
-                    Divider(color: Colors.black),
+                    const Divider(color: Colors.black),
                   ],
                 );
               }).toList(),
